@@ -1,0 +1,113 @@
+body {
+  background-color: #e8f1f6;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.month-selector select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #f9d469; /* Yellow background color */
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f2f2f2;
+}
+
+.transaction-image {
+  width: 50px;
+  height: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0a500;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.per-page {
+  margin-bottom: 20px;
+}
+
+.statistics-table {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #f9d469; /* Yellow background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.statistics-table p {
+  margin: 10px 0;
+}
+
+.chart {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+.chart.pie-chart {
+  height: 400px;
+}
+
+.section-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
